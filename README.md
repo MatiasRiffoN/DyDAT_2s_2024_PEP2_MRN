@@ -14,7 +14,26 @@
   <h3>Departamento de Ingeniería Geoespacial y Ambiental</h3>
 </div>
 
-<div align="center">
-  <h2>Manual de Usuario</h2>
-</div>
+<h1>
+  <h2 align="center">Manual de Usuario</h2>
+</h1>
+
+
+<h3>Pasos</h3>
+
+<ol>
+  <li>Preparar una carpeta que contenga: requirements.txt, pep2.gdb, script pep2.py, script pep.sql y config.json</li>
+  <li>Verificar que la geodatabase contenga:
+      <ul>
+        <li>manzanas</li>
+        <li>predios</li>
+        <li>zonas_censales</li>
+        <li>supermercados</li>
+      </ul>
+  <li>Crear un entorno virtual e instalar los paquetes de requirements.txt</li>
+  <li>Ejecutar pep2.py</li>
+</ol>
+
+
+
 
