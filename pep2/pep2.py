@@ -85,12 +85,12 @@ def execute_sql_script(script_path, conn, cur):
 
 
 #Cargar la configuración de la base de datos
-config_path = "PEP2/config.json"
+config_path = "./config.json"
 db_config = load_config(config_path)
 engine, conn, cur = create_connection(db_config)
 
 #Cargar datos desde la GDB
-gdb_path = r"./PEP2/pep_2.gdb"
+gdb_path = r"./pep_2.gdb"
 
 predios_gdb = datos_gdb(gdb_path, "predios")
 if predios_gdb is None:
@@ -129,7 +129,7 @@ export_to_postgis(manzanas_gdb, "manzanas")
 export_to_postgis(zonas_censales_gdb, "zonas_censales")
 
 # Ruta al script SQL
-sql_script_path = "PEP2/pep.sql"
+sql_script_path = "./pep.sql"
 
 # Ejecutar el script SQL y guardar los resultados en el esquema 'resultados'
 execute_sql_script(sql_script_path, conn, cur)
