@@ -1,3 +1,4 @@
 geopandas
 sqlalchemy
 psycopg2
+geoalchemy2
