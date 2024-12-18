@@ -31,6 +31,7 @@
         <li>supermercados</li>
       </ul>
   <li>Crear un entorno virtual e instalar los paquetes de requirements.txt</li>
+  <li>Ingresar sus datos de servidor SQL en config.json</li>
   <li>Ejecutar pep2.py</li>
 </ol>
 
