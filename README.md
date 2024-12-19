@@ -18,6 +18,11 @@
   <h2 align="center">Manual de Usuario</h2>
 </h1>
 
+<ul>
+    <li>Comuna escogida: Puerto Varas</li>
+    <li>Servicio elegido: Supermercados</li>
+</ul>
+
 <h3>Diccionario</h3>
 
 <p>Dentro del script se utilizan 4 feature class pertenecientes a pep2.gdb:</p>
