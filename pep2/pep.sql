@@ -1,3 +1,6 @@
+-- Crear extensión de PostGIS
+CREATE EXTENSION IF NOT EXISTS postgis;
+
 -- Eliminar las tablas si ya existen
 DROP TABLE IF EXISTS resultados.predios_optimos;
 DROP TABLE IF EXISTS entrada.permiso_supermercados;
