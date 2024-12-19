@@ -74,7 +74,8 @@ El resultado obtenido se almacena en la tabla llamada **`predios_optimos`** esta
         "port": 5432,
         "user": "postgres",
         "password": "postgres"
-    }
+        }
+   }
    ```  
    
 7. Ejecutar pep2.py
